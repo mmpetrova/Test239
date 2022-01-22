@@ -17,7 +17,12 @@ test = "test text";
 alert(typeof(test));
 
 let testUndef;
-alert(typeof(testUndef));*/
+alert(typeof(testUndef));
 
 let result = prompt("title", ["default"]);
 alert(result);
+
+let isBoss = confirm("чё почём?");
+alert(isBoss);*/
+
+alert(Boolean(2));
